@@ -61,9 +61,7 @@ PUT	/users/{id}	Update user by ID
 DELETE	/users/{id}	Delete user by ID
 
 
-Error Handling
-❌ If data is not found during update/delete, a custom exception is thrown.
-❌ If there is an issue with email sending, a fallback mechanism is used.
+
 
 📧 Email Notification
 After a user submits data, a confirmation email is sent automatically via Gmail SMTP.
